@@ -20,6 +20,11 @@ namespace TestWebApps.Controllers
             return View();
         }
 
+        public ActionResult Details1(int id)
+        {
+            return View();
+        }
+
         // GET: test/Create
         public ActionResult Create()
         {
